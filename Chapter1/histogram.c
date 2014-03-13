@@ -16,7 +16,7 @@ int main() {
 	int wordOccur[MAXWORDLEN + 1];
 	int numchar;
 
-	for (i= 0; i < MAXWORDLEN; ++i) { //initialize all indexes of array to be zero
+	for (i= 0; i <= MAXWORDLEN; ++i) { //initialize all indexes of array to be zero
 		wordOccur[i] = 0;
 	}
 
